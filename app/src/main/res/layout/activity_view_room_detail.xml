@@ -26,6 +26,7 @@
         android:orientation="vertical">
 
         <TextView
+            android:id="@+id/priceTxt"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="3억8,000"
@@ -35,6 +36,7 @@
             android:gravity="center" />
 
         <TextView
+            android:id="@+id/descriptionTxt"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="3번째 방입니다."
@@ -76,6 +78,7 @@
                 android:layout_weight="1" />
 
             <TextView
+                android:id="@+id/adressTxt"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="실제 주소"
@@ -95,6 +98,7 @@
             android:orientation="horizontal">
 
             <TextView
+                android:id="@+id/floorTxt"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="층 수" />
