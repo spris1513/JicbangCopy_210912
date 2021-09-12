@@ -62,21 +62,19 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingtop="20dp"
-            android:paddingBottom="20dp"
             android:gravity="center_vertical"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:paddingBottom="20dp"
+            android:paddingtop="20dp">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="행정구역" />
-
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1" />
-
             <TextView
                 android:id="@+id/adressTxt"
                 android:layout_width="wrap_content"
@@ -84,9 +82,6 @@
                 android:text="실제 주소"
                 android:textColor="@color/black"
                 android:textSize="17sp"/>
-
-
-
         </LinearLayout>
 
         <LinearLayout
@@ -94,29 +89,22 @@
             android:layout_height="wrap_content"
             android:paddingtop="20dp"
             android:paddingBottom="20dp"
-            android:gravity="center_vertical"
-            android:orientation="horizontal">
-
+            android:gravity="center_vertical">
             <TextView
                 android:id="@+id/floorTxt"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="층 수" />
-
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1" />
-
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="실제 주소"
                 android:textColor="@color/black"
                 android:textSize="17sp"/>
-
-
-
         </LinearLayout>
 
         <TextView
