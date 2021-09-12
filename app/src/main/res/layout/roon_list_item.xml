@@ -36,6 +36,7 @@
                 android:textSize="16sp"
                 android:textColor="@color/black"
                 android:textStyle="bold"
+                android:layout_marginTop="3dp"
                 android:text="동네, 층수" />
 
             <TextView
