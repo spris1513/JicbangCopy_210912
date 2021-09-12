@@ -9,6 +9,25 @@ class RoomData(
     val floor: Int,
     val description:String) {
 
+
+    fun getFormatedFloor() : String{
+
+//        1. 양수인 경우(1,3,5...) > "floor층"
+//        2. 0인경우 > "반지하"
+//        3. 음수인 경우(-1, -2, ...) > "지하 ?층"
+
+        if(this.floor > 0){
+            return "${this.floor}층"
+        }
+        else if (this.floor == 0) {
+            return "반지하"
+        }
+        else{
+            return "지하 ${-this.floor}"
+        }
+
+    }
+
     fun gerFormattedPrice() : String{
 
 //        1. 1억이 안넘는 경우 ( 가격 < 10000)
